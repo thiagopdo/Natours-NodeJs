@@ -1,0 +1,6 @@
+{
+  "singleQuote": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "trailingComma": "none"
+}

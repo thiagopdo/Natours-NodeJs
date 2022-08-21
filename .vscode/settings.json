@@ -1,0 +1,11 @@
+{
+  "docwriter.progress.trackMethods": true,
+  "docwriter.progress.trackFunctions": true,
+  "docwriter.style": "JSDoc",
+  "blockman.n04ColorComboPreset": "Classic Dark 1 (Solid colors)",
+  "blockman.n04Sub01ColorComboPresetForDarkTheme": "Classic Dark 2 (Gradients)",
+  "blockman.n04Sub04RightSideBaseOfBlocks": "Rightmost Edge Of Inner Content",
+  "blockman.n04Sub06AdditionalPaddingRight": 70,
+  "blockman.n23AnalyzeSquareBrackets": true,
+  "blockman.n24AnalyzeRoundBrackets": true
+}
