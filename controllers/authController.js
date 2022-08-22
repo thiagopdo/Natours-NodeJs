@@ -46,7 +46,6 @@ exports.signup = catchAsync(async (req, res, next) => {
     role: req.body.role
   });
   const url = `${req.protocol}://${req.get('host')}/me`;
-  console.log(url);
 
   await new Email(newUser, url).sendWelcome();
 
@@ -92,8 +91,6 @@ exports.protect = catchAsync(async (req, res, next) => {
     token = req.cookies.jwt;
   }
   if (!token) {
-    // console.log(token);
-
     return next(new AppError('You are not logged in', 401));
   }
   //2. Verification token
